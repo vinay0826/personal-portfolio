@@ -9,7 +9,7 @@ const ImageClipBox = ({ src, clipClass }) => (
 
 const Contact = () => {
   return (
-    <div id='contact' className='my-20 min-h-96 w-screen  px-10'>
+    <div id='contact' className='my-20 min-h-96 w-screen px-10'>
       <div className='relative rounded-lg bg-black py-24 text-blue-50 sm:overflow-hidden'>
         <div className='absolute -left-20 top-0 hidden h-full w-72 overflow-hidden sm:block lg:left-20 lg:w-96'>
           <ImageClipBox
@@ -34,14 +34,10 @@ const Contact = () => {
         </div>
 
         <div className='flex flex-col items-center text-center'>
-          <p className='mb-10 font-general text-[10px] uppercase'>
-            Join Zentry
-          </p>
-
-          <AnimatedTitle
-            title='let&#39;s b<b>u</b>ild the <br /> new era of <br /> g<b>a</b>ming t<b>o</b>gether.'
-            className='special-font !md:text-[6.2rem] w-full font-zentry !text-5xl !font-black !leading-[.9]'
-          />
+          <div className='mb-10 font-general text-lg sm:text-xl lg:text-2xl '>
+            <p>Email: nalagatlavinay26@gmail.com</p>
+            <p>Mobile: +91 8919112109</p>
+          </div>
 
           <Button title='contact us' containerClass='mt-10 cursor-pointer' />
         </div>
